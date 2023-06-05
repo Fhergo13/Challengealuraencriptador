@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador Oráculo</title>
+    <link rel="stylesheet" href="style.css">
+   
+   
+
+</head>
+
+<body>
+   <header>
+        <div class="titulo">
+        <img class="logo" src="imagen/logo batman.jpg" alt="logo batman">
+        <h1 class="tituloLogo">Encriptador Oráculo</h1>
+    </div>
+   </header>
+
+   <main>
+    <div class="titulo">
+     <div class="textoArea">
+        <div class="estilo">
+     <textarea name="texto"  id="texto" placeholder="Ingrese el texto aquí"></textarea>
+     <div class="textoInfo">
+        <p>&#9406 Solo letras minúsculas</p>
+     </div>
+     </div>
+    
+    
+     <div class="btn">
+        <button id="encri" class="btnEncriptar" type="button">Encriptar</button>
+        <button id="desencri" class="btnDesencriptar" type="button">Desencriptar</button>
+     </div>
+     <div class="resultado">
+        <div class="contenedor">
+        <div class="contenidoNoresuelto" id="noResuelto">
+            <div class="imagenResultado">
+                <img src="imagen/señal.jpg" alt="imagen de batiseñal">
+                <p class="ningún">Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+    
+    <div class="contenidoResuelto" id="resuelto">
+        <textarea name="textoResultado" id="textoResultado" disabled></textarea>
+        <button id="copiar" type="button">Copiar</button>
+
+    </div>
+</div>
+</div>
+</div>
+       
+    </div>
+
+   </main>
+ 
+
+
+
+
+
+   <script src="script.js"></script>
+</body>
